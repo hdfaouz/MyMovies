@@ -1,0 +1,27 @@
+body{
+    margin: 0%;
+    padding: 0%;
+     background-color: black;
+}
+.navbar{
+    background-color: #67121e;
+}
+.first{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    margin-top: 1%;
+    margin-left: 3%;
+    
+}
+.lesImgs{
+   width: 100% ;
+   display: flex;
+   justify-content: space-between;
+
+}
+
