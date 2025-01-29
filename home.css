@@ -1,0 +1,165 @@
+body{
+    margin: 0%;
+    padding: 0%;
+     background-image: url(/images/background.jpg);
+     opacity: 95%;
+   
+    
+    }
+.navba{
+    background-color: #67121e;
+    height: 80px;
+
+}
+.btn{
+    margin-top: 1%;
+}
+
+main{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+section{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 95%;
+    backdrop-filter: blur(15px);
+    border-radius: 50px;
+    padding-top: 0px;
+}
+
+h1{
+    font-size: 30px;
+    color: azure;
+    font-weight: bold;
+    margin-top: 0px;
+    padding: 10px 30px;
+    border: 3px solid rgba(244, 238, 238, 0.909);
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;    
+}
+
+form {
+    width: 80%;
+    height: 500px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.dr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:300px;
+
+    
+}
+.dr .gp #sort{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+
+
+.img-conter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    max-height: 250px;
+    padding: 3px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-conter img{
+    width: 100%;
+    max-height: 200px;
+    display: none;
+}
+
+.ajouter{
+    color: white;
+}
+#label-img {
+    display: block;
+    height: 45px;
+    background-color: #67121e;
+    text-align: center;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+
+#img{
+    display: none;
+     font-size: 2px;
+ }
+
+
+.gf {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width:350px;
+}
+
+select option{
+    color: rgb(255, 255, 255);
+    background-color: #67121e;
+}
+
+.text-lab{
+    font-weight: bold;
+}
+.gf .gp{
+ height: 45px;
+ 
+}
+
+.Ann{
+    background: white;
+    border-radius: 5px;
+    border: 3px solid rgba(239, 234, 234, 0.993);
+    outline: none;
+    width: 100%;
+    height: 35px;
+    font-size: medium;
+}
+
+button{
+
+    background-color: #67121e;
+    color: white;
+    height: 45px;
+    border: 3px solid rgba(22, 21, 21, 0.2);
+    font-weight: bold;
+    font-size: large;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+    
+    
+   
+    
+    
+    
+    
