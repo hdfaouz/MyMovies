@@ -6,14 +6,9 @@ body{
    
     
     }
-.navba{
-    background-color: #67121e;
-    height: 80px;
-
-}
-.btn{
-    margin-top: 1%;
-}
+.navbar{
+        background-color: #67121e;
+     }
 
 main{
     height: 700px;
@@ -48,7 +43,7 @@ h1{
     border-radius: 0px 0px 10px 10px;    
 }
 
-form {
+#Form {
     width: 80%;
     height: 500px;
     display: flex;
