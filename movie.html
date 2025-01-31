@@ -13,24 +13,51 @@
   
     <nav class="navbar">
         <form class="container-fluid justify-content-end">
+          
         <a href="movie.html"> <button class="btn btn-outline-primary me-2 text-white" type="button">Accueil</button></a> 
          <a href="home.html"> <button class="btn  btn-outline-primary text-white" type="button">Home</button></a>
+        
         </form>
     </nav>
-    <section class="first d-flex justify-content-end">
-        <div class="w-50"><input class="form-control me-2 w-50 rounded-pill mt-5 justify-content-center" type="search" placeholder="Search" aria-label="Search"></div>
-        
-    </section>
-    
-
-    <div class="lesImgs">
-      <img class="image" src="/images/the dark night.jpg">
-      <img class="image" src="/images/wicked.jpg">
-      <img class="image" src="/images/Mi.jpg">
-      <img class="image" src="/images/Dor.jpg">
+     
+    <div class="d-flex justify-content-center mt-5">
+        <input class="inp rounded" type="search" placeholder="Rechercher un film">
     </div>
 
-
     
+    <section  class="First">
+    <div class="films" id="film-list">
+        <div class="film">
+            <img src="images/wicked.jpg" alt="">
+            <button class="Modifier"><a href="">Modifier</a></button><button class="Supprimer"><a href="">Supprimer</a></button>
+        </div>
+        <div class="film">
+            <img src="images/Avatar.jpg" alt="">
+            <button class="Modifier"><a href="">Modifier</a></button><button class="Supprimer"><a href="">Supprimer</a></button>
+        </div>
+        <div class="film">
+            <img src="images/squad game.jpg" alt="">
+            <button class="Modifier"><a href="">Modifier</a></button><button class="Supprimer"><a href="">Supprimer</a></button>
+        </div>
+        <div class="film">
+            <img src="images/MoneyHist.jpg" alt="">
+            <button class="Modifier"><a href="">Modifier</a></button><button class="Supprimer"><a href="">Supprimer</a></button>
+        </div>
+        <div class="film">
+            <img src="images/Dor.jpg" alt="">
+            <button class="Modifier"><a href="">Modifier</a></button><button class="Supprimer"><a href="">Supprimer</a></button>
+        </div>
+        <div class="film">
+            <img src="images/the dark night.jpg" alt="">
+            <button class="Modifier"><a href="">Modifier</a></button><button class="Supprimer"><a href="">Supprimer</a></button>
+        </div>
+       
+
+    </div>
+</section>
+
+
+<script src="movie.js"></script>   
 </body>
+
 </html>
