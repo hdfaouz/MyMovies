@@ -1,7 +1,11 @@
 body{
     margin: 0%;
     padding: 0%;
-     background-color: black;
+     background-color: rgb(229, 226, 226);
+     background-image: url(images/background.jpg);
+     background-size: cover;
+     height: 400px;
+     background-repeat: no-repeat;
 }
 .navbar{
     background-color: #67121e;
@@ -11,12 +15,7 @@ body{
     justify-content: flex-end;
     align-items: center;
 }
-.First{
-    background-image: url(images/background.jpg);
-    background-size: cover;
-    height: 400px;
-    
-}
+
 .In{
     display: flex;
     justify-content: center;
@@ -35,15 +34,17 @@ body{
     display: flex;
     align-items: center; 
     gap: 66px; 
-    padding: 9px;   
+    padding: 9px; 
+   
 }
 .film{
+    display: inline;
     border-radius: 20px;
-    background-color: aliceblue;
-    position: relative;
-    width: 150px;
-    height: 230px;
-    transition: transform 0,3s ease-in-out;
+    /* background-color: aliceblue; */
+    /* width: 150px;
+    height: 230px; */
+    /* transition: transform 0,3s ease-in-out; */
+    
 }
 .film :hover{
 transform: scale(1.1);
@@ -69,7 +70,18 @@ transform: scale(1.1);
     background-color: red;
    
 }
+.detail{
+    background-color: green;
+}
 .film button a{
     text-decoration: none;
     color: #f4eeee;
+}
+
+.ajouter{
+    display: flex;
+    
+}
+#film-list{
+    display: flex;
 }
