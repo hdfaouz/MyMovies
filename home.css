@@ -152,6 +152,73 @@ button{
     cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        opacity: 100%;
+        background-image: none;
+    }
+
+    main {
+        height: auto;
+        padding: 20px;
+    }
+
+    section {
+        width: 90%;
+        height: auto;
+        border-radius: 20px;
+        padding-top: 10px;
+    }
+
+    #Form {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .dr {
+        width: 100%;
+    }
+
+    .img-conter {
+        max-height: 150px;
+    }
+    .gf {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    #Form {
+        padding: 10px;
+    }
+}
+
+.dr .gp #sort {
+    width: 100%;
+}
+
+.img-conter img {
+    max-height: 150px;
+}
+
+.gf {
+    gap: 20px;
+}
+
+.Ann, button {
+    font-size: small;
+}
+
+
     
     
    

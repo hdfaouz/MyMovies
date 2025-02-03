@@ -27,14 +27,14 @@ function Ajout() {
         return;
     }
 
-    // Création de l'objet film
+   
     const objet = {
         titleValue,
         genreValue,
         RealValue,
         StatutValue,
         anSortValue,
-        image: imagePath || 'images/default.jpg' // Image par défaut si aucune image n'est ajoutée
+        image: imagePath || 'images/default.jpg' 
     };
    if(editIndex === -1){
     Movies.push(objet);
@@ -80,7 +80,7 @@ function clearData(){
 
 }
 
-// Fonction pour afficher les films sur la page d'accueil
+
 function afficherFilms() {
     const filmsContainer = document.querySelector("#film-list");
     
@@ -115,7 +115,7 @@ function afficherFilms() {
     });
 }
 
-// Fonction pour supprimer un film
+
 function supprimerFilm(index) {
     let Movies = JSON.parse(localStorage.getItem("Movies")) || [];
     Movies.splice(index, 1);
@@ -123,7 +123,6 @@ function supprimerFilm(index) {
     afficherFilms();
 }
 
-// Fonction pour modifier un film (redirection vers une page de modification)
 function modifierFilm(index) {
     const film = Movies[index];
     Title.value = film.titleValue;

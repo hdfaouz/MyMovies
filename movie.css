@@ -1,55 +1,58 @@
-body{
+body {
     margin: 0%;
     padding: 0%;
-     background-color: rgb(229, 226, 226);
-     background-image: url(images/background.jpg);
-     background-size: cover;
-     height: 400px;
-     background-repeat: no-repeat;
+    background-color: rgb(229, 226, 226);
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
 }
-.navbar{
+
+.navbar {
     background-color: #67121e;
 }
-.inp{
+
+.inp {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.In{
+.In {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.image{
+
+.image {
     width: 200px;
     height: 200px;
     margin-top: 1%;
     margin-left: 3%;
-    
-    
 }
-.films{
+
+.films {
     margin-top: 80px;
     display: flex;
-    align-items: center; 
-    gap: 66px; 
-    padding: 9px; 
-   
+    align-items: center;
+    gap: 66px;
+    padding: 9px;
 }
-.film{
+
+.film {
     display: inline;
     border-radius: 20px;
     /* background-color: aliceblue; */
-    /* width: 150px;
-    height: 230px; */
+    /* width: 150px; */
+    /* height: 230px; */
     /* transition: transform 0,3s ease-in-out; */
-    
 }
-.film :hover{
-transform: scale(1.1);
+
+.film:hover {
+    transform: scale(1.1);
 }
-.film img{
+
+.film img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,31 +60,91 @@ transform: scale(1.1);
     cursor: pointer;
     width: 100%;
     height: 100%;
-   
 }
-.film button{
+
+.film button {
     cursor: pointer;
 }
-.Modifier{
+
+.Modifier {
     background-color: blue;
-     
 }
-.Supprimer{
+
+.Supprimer {
     background-color: red;
-   
 }
-.detail{
+
+.detail {
     background-color: green;
 }
-.film button a{
+
+.film button a {
     text-decoration: none;
     color: #f4eeee;
 }
 
-.ajouter{
+.ajouter {
     display: flex;
-    
 }
-#film-list{
+
+#film-list {
     display: flex;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .films {
+        gap: 40px;
+    }
+
+    .image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .film {
+        width: 180px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .films {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .film {
+        width: 100%;
+        height: auto;
+    }
+
+    .image {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        height: auto;
+    }
+
+    .navbar {
+        font-size: 14px;
+    }
+
+    .films {
+        gap: 20px;
+    }
+
+    .image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .film {
+        width: 100%;
+        height: auto;
+    }
 }
